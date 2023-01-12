@@ -1,11 +1,11 @@
 import React from "react";
 
 
-function About ({src = "https://via.placeholder.com/215", text}){
+function About ({image = "https://via.placeholder.com/215", about}){
     return (
         <aside>
-        <img src={src} alt="blog logo"/>
-            <p>{text}</p>
+        <img src={image} alt="blog logo"/>
+            <p>{about}</p>
         </aside>
     )
 }

@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <Header/>
-      <About src="logo.svg" text="Personal blog by Dan Abramov.I explain with words and code."/>
+      <About image ="" about="About this blog"/>
       <ArticleList/>
     </div>
   );
